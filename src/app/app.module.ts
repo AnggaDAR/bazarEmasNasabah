@@ -4,7 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+// import { ListPage } from '../pages/list/list';
 import { AccountPage } from '../pages/account/account';
 import { BookinglistPage } from '../pages/bookinglist/bookinglist';
 import { CartPage } from '../pages/cart/cart';
@@ -20,12 +20,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
+    // ListPage,
     AccountPage,
     BookinglistPage,
     CartPage,
-    HelloIonicPage,
-    Home2Page,
+    // HelloIonicPage,
+    // Home2Page,
     UploadPage
   ],
   imports: [
@@ -36,12 +36,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
+    // ListPage,
     AccountPage,
     BookinglistPage,
     CartPage,
-    HelloIonicPage,
-    Home2Page,
+    // HelloIonicPage,
+    // Home2Page,
     UploadPage
   ],
   providers: [
